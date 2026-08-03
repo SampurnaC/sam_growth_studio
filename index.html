@@ -804,7 +804,15 @@ Contact
   <i class="bi bi-check-circle-fill"></i>
   Search Engine Optimisation (SEO)
 </li>
+<li>
+  <i class="bi bi-check-circle-fill"></i>
+  Google Analytics Setup
+  </li>
   
+  <li>
+  <i class="bi bi-check-circle-fill"></i>
+  Google Business Profile Integration
+  </li>
   
   </ul>
   
@@ -884,7 +892,7 @@ Contact
     
     <li>
     <i class="bi bi-check-circle-fill"></i>
-    Custom Website Development
+    Custom Built Website
     </li>
     
     <li>
@@ -917,12 +925,12 @@ Contact
     
     <li>
     <i class="bi bi-check-circle-fill"></i>
-    Performance & Uptime Monitoring
+    Google Analytics Setup
     </li>
     
     <li>
     <i class="bi bi-check-circle-fill"></i>
-    Priority Email Support
+    Google Business Profile Integration
     </li>
     
     
@@ -1154,9 +1162,9 @@ Contact
   <div class="contact-form">
   
   
-  <form>
+  <form name="contact" method="POST" data-netlify="true">
   
-  
+  <input type="hidden" name="form-name" value="contact" />
   <div class="row g-4">
   
   
@@ -1166,6 +1174,7 @@ Contact
   <input 
   type="text"
   class="form-control"
+  name="name"
   placeholder="Your Name">
   
   
@@ -1180,6 +1189,7 @@ Contact
   <input 
   type="email"
   class="form-control"
+  name="email"
   placeholder="Email Address">
   
   
@@ -1195,6 +1205,7 @@ Contact
   <input 
   type="text"
   class="form-control"
+  name="business"
   placeholder="Business Name">
   
   
@@ -1207,7 +1218,7 @@ Contact
   <div class="col-12">
   
   
-  <select class="form-control">
+  <select class="form-control" name="service">
   
   
   <option>
@@ -1247,6 +1258,7 @@ Contact
   <textarea
   class="form-control"
   rows="5"
+  name="message"
   placeholder="Tell me about your project">
   </textarea>
   

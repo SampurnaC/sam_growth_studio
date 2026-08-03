@@ -1756,3 +1756,54 @@ textarea {
 
 
 }
+
+
+/* ==========================
+        BRAND LOGO
+=========================== */
+
+
+.logo-code {
+
+  font-size:1.35rem;
+
+  font-weight:800;
+
+  letter-spacing:-0.8px;
+
+  color:#111827;
+
+  text-decoration:none;
+
+  font-family:"Inter", sans-serif;
+
+}
+
+
+
+.logo-code span {
+
+
+  background:
+  linear-gradient(
+      135deg,
+      #8b5cf6,
+      #ec4899,
+      #f97316
+  );
+
+
+  -webkit-background-clip:text;
+
+  -webkit-text-fill-color:transparent;
+
+
+}
+
+
+
+.logo-code:hover {
+
+  color:#111827;
+
+}
